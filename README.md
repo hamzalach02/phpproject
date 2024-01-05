@@ -20,9 +20,6 @@ sudo nano /etc/apache2/sites-available/user.conf
     ServerAdmin webmaster@user
     DocumentRoot /var/www/user
     ServerName user.com
-
-    
-    
 </VirtualHost>
 
 ```
