@@ -18,9 +18,18 @@ sudo nano /etc/apache2/sites-available/user.conf
 ```
 ```bash
 <VirtualHost *:80>
-    ServerAdmin webmaster@user
-    DocumentRoot /var/www/user
-    ServerName user.com
+    ServerAdmin webmaster@hamzalachgar
+    DocumentRoot /var/www/hamzalachgar
+    ServerName hamzalachgar.com
+
+    <Directory /var/www/hamzalachgar>
+        Options Indexes FollowSymLinks
+        AllowOverride All
+        Require all granted
+    </Directory>
+
+    ErrorLog ${APACHE_LOG_DIR}/error.log
+    CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost>
 
 ```
