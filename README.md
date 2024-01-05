@@ -4,7 +4,7 @@ This guide will walk you through the process of setting up Apache, MySQL, and Ph
 
 ## Apache Installation
 
-1. Install Apache:
+1. Install Apache and php module:
    ```bash
    sudo apt update
    sudo apt install apache2
