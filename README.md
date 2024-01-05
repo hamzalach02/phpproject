@@ -10,12 +10,12 @@ This guide will walk you through the process of setting up Apache, MySQL, and Ph
    sudo apt install apache2
    ```
 2. Virtual Host Configuration
-````
+```bash
 #this directory is for our web application
 sudo mkdir /var/www/user
 sudo nano /etc/apache2/sites-available/user.conf
-````
-````
+```
+```bash
 <VirtualHost *:80>
     ServerAdmin webmaster@user
     DocumentRoot /var/www/user
@@ -30,16 +30,16 @@ sudo nano /etc/apache2/sites-available/user.conf
     
 </VirtualHost>
 
-````
-````
+```
+```bash
 sudo a2ensite user.conf
 sudo service apache2 restart
-````
+```
 3.setup mysql-server
 installation
-````
+```bash
 sudo apt install mysql-server
-````
+```
 manipulate sql
 ````
 sudo mysql
