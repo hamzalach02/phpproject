@@ -93,6 +93,9 @@ mysql -u root -p myapp < var/www/user/create.sql
 ````
 sudo apt install php
 sudo apt install phpmyadmin
+sudo apt search libapache2-mod
+sudo apt install libapache2-mod-php
+sudo apt install libapache2-mod-mysql
 ````
 5.now you add the ip adresse of the server machine to go just by the domaine name :
 go to this file and modify it as admin
