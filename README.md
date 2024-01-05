@@ -98,3 +98,13 @@ mysql -u root -p myapp < var/www/user/create.sql
 sudo apt install php
 sudo apt install phpmyadmin
 ````
+5.now you add the ip adresse of the server machine to go just by the domaine name :
+go to this file and modify it as admin
+````
+C:\Windows\System32\drivers\etc\hosts
+````
+and add this to it 
+````
+ubuntu_server_ip user.com
+
+````
