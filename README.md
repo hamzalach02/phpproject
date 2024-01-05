@@ -21,12 +21,7 @@ sudo nano /etc/apache2/sites-available/user.conf
     DocumentRoot /var/www/user
     ServerName user.com
 
-    <Directory /var/www/user>
-        Options Indexes FollowSymLinks
-        AllowOverride All
-        Require all granted
-    </Directory>
-
+    
     
 </VirtualHost>
 
