@@ -36,11 +36,11 @@ sudo a2ensite user.conf
 sudo service apache2 restart
 ````
 3.setup mysql-server
-#installation
+installation
 ````
 sudo apt install mysql-server
 ````
-#manipulate sql
+manipulate sql
 ````
 sudo mysql
 ````
@@ -50,7 +50,7 @@ sudo mysql
 >alter user 'root'@'localhost' identified with mysql_native_password by 'yourpassword';
 >exit
 ````
-#mysql secure installation for securityand to disable Remote Root Login 
+mysql secure installation for securityand to disable Remote Root Login 
 ````
 mysql_secure_installation
 ````
