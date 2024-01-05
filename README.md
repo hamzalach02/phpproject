@@ -8,6 +8,7 @@ This guide will walk you through the process of setting up Apache, MySQL, and Ph
    ```bash
    sudo apt update
    sudo apt install apache2
+   sudo apt install php
    ```
 2. Virtual Host Configuration
 ```bash
@@ -88,9 +89,10 @@ you can create it using root or the user created :
 ```bash
 mysql -u root -p myapp < var/www/user/create.sql
 ```
-4.move on phpmyadmin installation :
+4.now php and phpmyadmin installation :
+we will install phpmyadmin this ui that allows use to manipulat our databases 
 ```bash
-sudo apt install php
+
 sudo apt install phpmyadmin
 
 ```
