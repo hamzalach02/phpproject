@@ -29,7 +29,7 @@ sudo nano /etc/apache2/sites-available/user.conf
 ```bash
 sudo a2ensite user.conf
 sudo service apache2 restart
-sudo apache2ctl configtest
+
 ```
 3.setup mysql-server
 installation
