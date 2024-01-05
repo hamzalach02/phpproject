@@ -93,7 +93,7 @@ you can create it using root or the user created :
 ````
 mysql -u root -p myapp < var/www/user/create.sql
 ````
-move on phpmyadmin installation :
+4.move on phpmyadmin installation :
 ````
 sudo apt install php
 sudo apt install phpmyadmin
