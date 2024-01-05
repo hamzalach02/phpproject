@@ -64,7 +64,7 @@ mysql -u root -p
 ````
 you'll see password field type the password of the root to connect
 
-#creation of a new db 
+creation of a new db 
 after login let's create a new db for our project 
 ````
 >create database myapp;
@@ -73,7 +73,7 @@ let's show the list of all the databases that we have
 ````
 >show schemas;
 ````
-#we will create new user bc using root is not the best practice 
+we will create new user bc using root is not the best practice 
 ````
 >create user 'user'@'localhost' identified with mysql_native_password by 'userpassword';
 ````
@@ -88,12 +88,12 @@ now let's add privilleges on the new user for our database
 >grant all on myapp.* to 'user'@'localhost';
 >exit
 ````
-#create the sql tables using an sql file : 
+create the sql tables using an sql file : 
 you can create it using root or the user created : 
 ````
 mysql -u root -p myapp < var/www/user/create.sql
 ````
-#move on phpmyadmin installation :
+move on phpmyadmin installation :
 ````
 sudo apt install php
 sudo apt install phpmyadmin
