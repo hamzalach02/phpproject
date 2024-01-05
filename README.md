@@ -35,6 +35,8 @@ sudo service apache2 restart
 installation
 ```bash
 sudo apt install mysql-server
+sudo apt-get install php-mysql
+
 ```
 manipulate sql
 ```bash
